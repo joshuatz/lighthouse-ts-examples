@@ -1,0 +1,23 @@
+{
+	"name": "lighthouse-ts-examples",
+	"version": "1.0.0",
+	"description": "Lighthouse TypeScript Examples",
+	"main": "./dist/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"run:all": "node ./dist/cli.js"
+	},
+	"keywords": [],
+	"author": {
+		"name": "Joshua Tzucker",
+		"url": "https://joshuatz.com/?utm_source=package"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"lighthouse": "^8.0.0"
+	},
+	"devDependencies": {
+		"@tsconfig/node14": "^1.0.1",
+		"typescript": "^4.3.5"
+	}
+}
